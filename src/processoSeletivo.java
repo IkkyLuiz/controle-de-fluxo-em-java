@@ -10,7 +10,7 @@ public class ProcessoSeletivo {
         String[] candidatos = {"Felipe", "Marcia", "Julio", "Jose","Raul"};
         System.out.println("Lista de aprovados");
         for(int indice = 0; indice<candidatos.length; indice ++){
-            System.out.println("O candidato " + indice + " foi "   +  candidatos[indice]);
+            System.out.println("O candidato " + (indice+1) + " foi "   +  candidatos[indice]);
         }
         
     }
